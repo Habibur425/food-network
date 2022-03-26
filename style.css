@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* first and second part start */
+
+.contant{
+  width: 100%;
+  display: flex;
+  background-image: url(picture/bg-pic-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contant .half-width{
+  width: 50%;
+  padding: 20px;
+}
+.contant .half-width  img{
+  width: 90%;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+h1{
+  font-size: 45px;
+}
+span{
+  color: orange;
+
+}
+a{
+  text-decoration: none;
+  background: linear-gradient(grey , red);
+  padding: 10px 30px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
+a:hover{
+  color: yellow;
+}
+.second{
+  margin-top: 20px;
+  background-image: url(picture/bg-pic-2.jpg);
+}
+p{
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+.color{
+  color: white;
+}
+/* first and second part end */
+
+
+/* third part start */
+.third{
+ width: 100%;
+ margin-top: 20px;
+}
+.head{
+  text-align: center;
+}
+.p{
+  margin-left: 30%;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.vegitable{
+  position: relative;
+  top: -20px;
+  display: flex;
+  width: 100%;
+}
+.image{
+  width: 100%;
+  padding: 30px;
+  margin: 4%;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 grey;
+}
+.vegitable .image .picture img{
+  border-radius: 20px;
+  border: 1px solid green;
+}
+ p{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.third{
+  margin-top: 20px;
+  background-image: url(picture/bg-pic-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* third part end */
+
+
+/* four part start */
+.four{
+  width: 90%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px 0 grey;
+}
+.price{
+  font-size: 18px;
+  margin: 0 10%;
+}
+/* four part end */
+
+
+/* footer part start */
+.footer{
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+}
+.heading{
+  align-items: center;
+  text-align: center;
+}
+.footer .headp{
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+ margin: 0 auto;
+
+}
+/* footer part end */
+
+
+
+
+@media(max-width:660px){
+  .vegitable {
+    flex-direction: column;
+  }
+  .picture{
+    margin-left: 30%;
+  }
+  .image{
+    width:85%;
+  }
+  .p{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+}
